@@ -1,0 +1,40 @@
+
+.slide{
+    background-color: aqua;
+    height: 30em;
+    width: 30em;
+}
+.slide-container{
+    display: flex;
+    text-align: center;
+    margin: auto 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.slide{
+    border-radius: 10%;
+    box-shadow: 10px 10px  rgba(116, 187, 218, 0.5);
+}
+.speaker-image{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-top: 7px;
+}
+.quotes{
+    font-family: cursive;
+    margin: 12px;
+    color: rgb(89, 57, 113);
+    font-size: 1.1rem;
+}
+.speaker{
+    font-family: cursive;
+    margin-top: 30px;
+    color: rgb(37, 20, 49);
+    font-size: 0.95rem;
+}
+.in-active{
+    display: none;
+}
