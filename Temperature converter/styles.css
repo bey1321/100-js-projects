@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background: linear-gradient(to left bottom, rgb(144, 246, 144), rgb(208, 236, 246));
+    height: fit-content;
+    width:fit-content;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(37, 144, 108);
+    border-radius: 5%;
+    box-shadow: 5px 5px rgba(128, 192, 128, 0.5);
+}
+h1{
+    font-size: 2.5rem;
+}
+.temperature-input{
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 25px;
+}
+label{
+    font-size: 25px;
+    font-weight: 900; 
+    margin-bottom: 7px;
+}
+input{
+    height: 40px;
+    float: right;
+    width: 100%;
+    border-radius: 15px;
+    border-color: rgb(144, 246, 144);
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(14, 117, 50);
+    box-shadow: 3px 3px rgba(128, 192, 128, 0.5);
+}
+input::placeholder {
+    color: rgb(100, 132, 117, 0.5); /* Change to your desired color */
+    opacity: 1; /* Optional: Ensure full opacity */
+}
